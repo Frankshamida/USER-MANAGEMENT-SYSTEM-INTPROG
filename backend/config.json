@@ -1,12 +1,12 @@
 {
   "development": {
     "database": {
-      "url": "postgresql://postgres:vyjOzljPiAKCLybzurgDYfnaZhWEuAfT@tramway.proxy.rlwy.net:45822/railway"
+      "url": "postgresql://postgres:rcKhwjxczirzyUbczBoXZFvXcmSQATlQ@turntable.proxy.rlwy.net:25773/railway"
     },
     "secret": "STARTTLS_DEV_SECRET",
     "emailFrom": "serenityq143@gmail.com",
     "smtpOptions": {
-      "host": "smtp.gmail.com",
+      "host": "postgres.railway.internal",
       "port": 465,
       "secure": true,
       "auth": {
@@ -24,7 +24,7 @@
   },
   "production": {
     "database": {
-      "url": "postgresql://postgres:vyjOzljPiAKCLybzurgDYfnaZhWEuAfT@tramway.proxy.rlwy.net:45822/railway"
+      "url": "postgresql://postgres:rcKhwjxczirzyUbczBoXZFvXcmSQATlQ@turntable.proxy.rlwy.net:25773/railway"
     },
     "secret": "STARTTLS",
     "emailFrom": "serenityq143@gmail.com",
