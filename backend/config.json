@@ -1,19 +1,48 @@
 {
-  "database": {
-    "host": "mysql.railway.internal",
-    "port": 3306,
-    "user": "root",
-    "password": "SJyRNTkABbjYYVYnAJQDkokCyfTPVcke",
-    "database": "railway"
+  "development": {
+    "database": {
+      "url": "postgresql://postgres:vyjOzljPiAKCLybzurgDYfnaZhWEuAfT@tramway.proxy.rlwy.net:45822/railway"
+    },
+    "secret": "STARTTLS_DEV_SECRET",
+    "emailFrom": "serenityq143@gmail.com",
+    "smtpOptions": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "serenityq143@gmail.com",
+        "pass": "iunf ocqt qloy njfi"
+      },
+      "tls": {
+        "rejectUnauthorized": false
+      },
+      "debug": true,
+      "logger": true,
+      "disableFileAccess": true,
+      "disableUrlAccess": true
+    }
   },
-  "secret": "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",
-  "emailFrom": "info@node-mysql-signup-verification-api.com",
-  "smtpOptions": {
-    "host": "smtp.ethereal.email",
-    "port": 587,
-    "auth": {
-      "user": "werner.schowalter@ethereal.email",
-      "pass": "aptEeUffGcd3jZ9ARM"
+  "production": {
+    "database": {
+      "url": "postgresql://postgres:vyjOzljPiAKCLybzurgDYfnaZhWEuAfT@tramway.proxy.rlwy.net:45822/railway"
+    },
+    "secret": "STARTTLS",
+    "emailFrom": "serenityq143@gmail.com",
+    "smtpOptions": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "serenityq143@gmail.com",
+        "pass": "iunf ocqt qloy njfi"
+      },
+      "tls": {
+        "rejectUnauthorized": false
+      },
+      "debug": true,
+      "logger": true,
+      "disableFileAccess": true,
+      "disableUrlAccess": true
     }
   }
 }
