@@ -1,14 +1,13 @@
 {
   "name": "angular-signup-verification-boilerplate",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve --open",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
+"scripts": {
+  "start": "npx ng serve --open",
+  "build": "npx ng build",
+  "test": "npx ng test",
+  "lint": "npx ng lint",
+  "e2e": "npx ng e2e"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.2",
@@ -25,7 +24,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.2",
-    "@angular/cli": "^17.3.2",
+    "@angular/cli": "^17.3.17",
     "@angular/compiler-cli": "^17.3.2",
     "@types/jasmine": "^3.5.0",
     "@types/jasminewd2": "^2.0.3",
