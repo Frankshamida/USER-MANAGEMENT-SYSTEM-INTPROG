@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "framework": "angular",
+  "buildCommand": "npx ng build --configuration production",
+  "outputDirectory": "dist/angular-signup-verification-boilerplate"
+}
